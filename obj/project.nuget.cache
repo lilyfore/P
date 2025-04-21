@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0z4NNUslhW68cy/E/GL1DHMUR2/Ow/tLyHdduzTExdd6rvDkHwN01eHcttshKbsYgAJYkxYF2LmqBV5VTjZT4w==",
+  "dgSpecHash": "BJoxZzGQ5cHOLe5aXOCsnE+5z/wyWgNGuC5Rtzci1b8/jpR/ZVRDTnyD/g8IucPQLtCXbaM3YYDMQXNptTGhoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\psyax\\source\\repos\\P\\P.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\psyax\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
   "logs": []
 }
