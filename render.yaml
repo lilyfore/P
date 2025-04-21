@@ -1,0 +1,9 @@
+﻿services:
+  - type: web
+    name: P
+    runtime: dotnet
+    branch: main
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet P.dll
+    publishPath: out
+
