@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Thank You!";
+}
+
+<h1>Thank You for Your Message!</h1>
+<p>We have received your message and will get back to you shortly.</p>
+
+<p><strong>Name:</strong> @ViewData["Name"]</p>
+<p><strong>Email:</strong> @ViewData["Email"]</p>
+<p><strong>Message:</strong> @ViewData["Message"]</p>
+
+<a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Home</a>

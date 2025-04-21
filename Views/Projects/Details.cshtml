@@ -1,0 +1,14 @@
+﻿@model P.Models.Project
+
+@{
+    ViewData["Title"] = @Model.Title;
+}
+
+<h1>@Model.Title</h1>
+
+<img src="@Model.ImageUrl" class="img-fluid mb-3" alt="@Model.Title" />
+
+<p>@Model.Description</p>
+
+<a href="@Model.GitHubLink" class="btn btn-dark" target="_blank">View on GitHub</a>
+<a href="@Url.Action("Index")" class="btn btn-secondary">Back to Projects</a>
