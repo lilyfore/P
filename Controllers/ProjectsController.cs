@@ -12,8 +12,8 @@ namespace P.Controllers
             new Project
             {
                 Id = 1,
-                Title = "Weather App",
-                Description = "An app that displays current weather data from OpenWeather API.",
+                Title = "Xibalba",
+                Description = "Roguelike action deck-builder based on the Mayan Book of the dead: the \"Popol Vuh\". ",
                 ImageUrl = "/images/weather.png", // You can add a real image later
                 GitHubLink = "https://github.com/yourusername/weather-app"
             },
