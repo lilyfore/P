@@ -17,14 +17,7 @@ namespace P.Controllers
                 ImageUrl = "/images/weather.png", // You can add a real image later
                 GitHubLink = "https://github.com/yourusername/weather-app"
             },
-            new Project
-            {
-                Id = 2,
-                Title = "To-Do List",
-                Description = "A basic to-do list built with ASP.NET Core MVC.",
-                ImageUrl = "/images/todo.png",
-                GitHubLink = "https://github.com/yourusername/todo-list"
-            }
+            
         };
 
         // GET: /Projects
